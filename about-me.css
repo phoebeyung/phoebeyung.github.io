@@ -16,6 +16,7 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 3rem;
     padding-left: .5rem;
+    font-family: "Poppins", sans-serif;
 }
 
 .img-fluid {
