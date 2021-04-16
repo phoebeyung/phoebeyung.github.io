@@ -105,7 +105,7 @@ html{
 }
 
 .wrapper .row section {
-  background: #94813982;
+  background: #948139;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -117,7 +117,7 @@ html{
   content: "";
   height: 15px;
   width: 15px;
-  background: #94813982;
+  background: #948139;
   top: 28px;
   transform: rotate(45deg);
   z-index: -1; /* -1 = placed behind */
