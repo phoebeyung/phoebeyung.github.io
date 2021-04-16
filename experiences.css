@@ -1,4 +1,9 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 
 .navbar-brand {
@@ -16,11 +21,12 @@
 }
 
 .img-fluid{
-	background-size: cover;
+  background-size: cover;
   object-fit: cover;
   min-height: 2100px;
   transform: rotate(180deg);
   min-width: 100%;
+  z-index: 1;
 }
 
 .bg-light {
@@ -110,6 +116,7 @@ html{
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
+  z-index: 3;
 }
 
 .wrapper .row section::before {
@@ -120,7 +127,7 @@ html{
   background: #948139;
   top: 28px;
   transform: rotate(45deg);
-  z-index: -1; /* -1 = placed behind */
+  z-index: 2; /* -1 = placed behind */
 }
 
 .row-1 section::before {
@@ -198,3 +205,4 @@ html{
   margin-left: 600px;
   font-size: 40px;
 }
+
