@@ -48,7 +48,13 @@
 
 .carousel-caption {
   top: 50%;
+  position: absolute;
+  bottom: 1.25rem;
+  padding-left: 20%;
+  color: #fff;
+  text-align: center;
 }
+
 
 
 .text-typing {
