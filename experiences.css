@@ -192,9 +192,7 @@ html{
 .wrapper .intro-text {
   margin-block-start: 50px;
   position: absolute;
-  padding: 5px;
-  font-size: 50px;
-  margin-left: 700px;
+  padding-left: 15%;
   overflow: hidden;
   white-space: nowrap;
   color: #90866b;
