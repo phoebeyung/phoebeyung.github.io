@@ -48,12 +48,12 @@
 
 .thecard {
 	position: absolute;
-	width: 90%;
-	height: 90%;
+	width: 70%;
+	height: 80%;
 	transform-style: preserve-3d;
 	transition: all 0.5s ease;
 	box-shadow: 0px 0px 5px #fff;
-	border-radius: 50px;
+	border-radius: 30px;
 	
 }
 
@@ -68,7 +68,7 @@
 	backface-visibility: hidden;
 	background: #a9cad099;
 	color: #333;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 
 .theback {
@@ -79,12 +79,12 @@
 	background: #a9cad0;
 	color: #333;
 	transform: rotateX(180deg);
-	border-radius: 50px;
+	border-radius: 30px;
 }
 
 .icon {
 	position: absolute;
-	left: 38%;
+	left: 35%;
 	margin: 1.25%;
 }
 
@@ -99,4 +99,8 @@
 	background-image: url("pexels-pixabay-158827-LQ.jpg");
 	background-repeat: no-repeat;
 	position: cover;
+}
+
+.col-12 {
+	margin-left: 10%;
 }
