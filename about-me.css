@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
+
 
 .navbar-brand {
 	padding-left: 50px;
 	font-size: 3rem;
-	font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-light .navbar-brand {
@@ -40,13 +43,6 @@
     text-align: center!important;
 }
 
-.bg-image {
-  background-image: url("river.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
 
 .carousel-caption {
   top: 30%;
@@ -59,6 +55,7 @@
 
 .about-me-context {
   background-color: rgb(254, 250, 246);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .body {
@@ -66,12 +63,56 @@
 }
 
 .content {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  max-width: 70%;
-  margin: auto;
-  padding-top: 70px;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  
+  font-family: 'Handlee', cursive;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  line-height: 2.15;
+
+}
+
+.row {
+  padding-top: 7%;
+}
+
+.col-4 {
+  padding-top: 4%;
+  padding-left:0%;
+  
+}
+
+.col-md-12 {
   text-align: center;
 }
 
+.profile-picture {
+  height: 700px;
+  width: 500px;
+  box-shadow: none;
+  
+  
+}
 
+.wrapper {
+  background-image:url("pexels-creative-vix-7283.jpg")
+
+}
+
+.hobbies p {
+  font-size:12px; color:black;
+  font-weight: bold;
+}
+
+img {
+  padding: 1%;
+  border-radius: 30%;
+  box-shadow: 6px 1px 5px #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+}
