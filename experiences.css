@@ -113,7 +113,7 @@ html{
 .wrapper .row section {
   background: #948139;
   border-radius: 5px;
-  width: calc(50% - 40px);
+  width: calc(50% - 70px);
   padding: 20px;
   position: relative;
   z-index: 3;
