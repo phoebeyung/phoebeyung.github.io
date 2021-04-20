@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 .navbar-brand {
 	padding-left: 50px;
 	font-size: 3rem;
@@ -20,31 +21,14 @@
 }
 
 .img-fluid{
-	background-size: cover;
+  background-size: cover;
   object-fit: cover;
   min-height: 2100px;
   transform: rotate(180deg);
   min-width: 100%;
+  z-index: 1;
 }
 
-.bg-light {
-	background-color: #000! important;
-}
-
-.footer {
-	background-color: #000! important;
-}
-
-.text-lg-start {
-    text-align: center!important;
-}
-
-.bg-image {
-  background-image: url("river.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .carousel-caption {
   top: 10%;
@@ -54,43 +38,65 @@
   padding: 0;
 }
 
-
-
-.box {
-  position: relative;
-  background: transparent;
-  
-  width: 200px;
-  text-align: center;
-  line-height: 40px;
- 
-  /* color: #ff7979; */
-  /* font-size: 17px; */
-  box-shadow: 0 0 0 2px #dca91a, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
-}
-
-img {
-	color: lightblue;
-	margin-top: 60px;
-	margin-bottom: 60px;
-}
-
-.col-2 {
-	width: 14%;
-}
-
-.row {
+.maincontainer {
+	position: relative;
+	height: 150px;
+	padding: 5%;
 	
-    padding-top: 180px;
-    padding-left: 80px;
+	
 }
 
-.box p {
-	margin-bottom: 0px;
+.thecard {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 5px #fff;
+	border-radius: 50px;
+	
 }
 
-.box:hover {
-	z-index: 1;
-	transform: scale(1.05);
-	box-shadow: 0px 10px 40px #dca91a;
+.thecard:hover{
+	transform: rotateX(180deg);
+}
+
+.thefront {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #a9cad099;
+	color: #333;
+	border-radius: 50px;
+}
+
+.theback {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #a9cad0;
+	color: #333;
+	transform: rotateX(180deg);
+	border-radius: 50px;
+}
+
+.icon {
+	position: absolute;
+	left: 38%;
+	margin: 1.25%;
+}
+
+.thefront p {
+	font-size: 50px;
+	padding-left: 48%;
+    padding-top: 4%;
+    color: #fff;
+}
+
+.wrapper {
+	background-image: url("pexels-pixabay-158827-LQ.jpg");
+	background-repeat: no-repeat;
+	position: cover;
 }
