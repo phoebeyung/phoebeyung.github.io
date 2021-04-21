@@ -112,11 +112,12 @@ html{
 
 .wrapper .row section {
   background: #948139;
-  border-radius: 5px;
-  width: calc(50% - 40px);
+  border-radius: 15px;
+  width: calc(50% - 70px);
   padding: 20px;
   position: relative;
   z-index: 3;
+  box-shadow: 5px 5px 5px #544747;
 }
 
 .wrapper .row section::before {
@@ -125,7 +126,7 @@ html{
   height: 15px;
   width: 15px;
   background: #948139;
-  top: 28px;
+  top: 50px;
   transform: rotate(45deg);
   z-index: 2; /* -1 = placed behind */
 }
@@ -141,25 +142,25 @@ html{
 .row section .icon {
   position: absolute;
   background: #cac6c6;
-  height: 40px;
-  width: 40px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
   color: #ff7979;
   font-size: 17px;
-  box-shadow: 0 0 0 2px #4f482e, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 3px 3px 8px #4f482e, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
 
 
 .row-1 section .icon {
   top: 13px;
-  right:-60px;
+  right:-120px;
 }
 
 .row-2 section .icon {
   top: 13px;
-  left:-60px;
+  left:-120px;
 }
 
 
@@ -210,9 +211,7 @@ html{
 .wrapper .intro-text {
   margin-block-start: 50px;
   position: absolute;
-  padding: 5px;
-  font-size: 50px;
-  margin-left: 700px;
+  padding-left: 40px;
   overflow: hidden;
   white-space: nowrap;
   color: #90866b;
@@ -223,8 +222,4 @@ html{
   
   margin-left: 600px;
   font-size: 40px;
-}
-
-section {
-  border-width: 100px;
 }
