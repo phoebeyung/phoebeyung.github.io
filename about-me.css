@@ -92,9 +92,10 @@
 }
 
 .profile-picture {
-  height: 700px;
+  height: 500px;
   width: 500px;
   box-shadow: none;
+  padding-left: 50px;
   
   
 }
